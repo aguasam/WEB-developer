@@ -1,0 +1,61 @@
+body{
+	background-color: #6B8E23; 	
+	margin: 0px;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: #006400;
+	padding: 7px;
+}
+
+a:hover{
+	background-color: #9ACD32;
+	color: #ADFF2F;
+}
+
+#cabecalho{
+	background-color: #6B8E23;
+	background-image: url("imagens/corridae.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 100px;
+	text-align: left;
+}
+
+#menu{
+	text-align: right;
+	width: 98.5%;
+	background-color: #556B2F;
+	border-style: ridge;
+	border-width: thick;
+	border-color: #228B22;
+	margin-right: 2px;
+	padding: 5px;
+	position: fixed;
+}
+
+#rodape {
+	color: black;
+	font-size: 10px;
+	text-align: center;
+}
+
+.titulo{
+	font-size: 50px;
+	color: #006400;
+	text-align: center;
+	text-shadow: #556B2F;
+	}
+
+.conteudo{
+	background-color: #9ACD32;
+	color: black;
+	padding: 15px;
+	font-style: Gill Sans, sans-serif;
+}
+
+.imgfloat{
+	float: left; 
+	margin: 10px 10px 0px 0px
+}
